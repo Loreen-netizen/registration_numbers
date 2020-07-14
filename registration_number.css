@@ -4,12 +4,37 @@
     align-items: center;
 }
 
+.labels{
+    padding: 2em;
+    margin: auto;
+    font-family: ubuntu,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+    font-weight: 200;
+    font-size: large;
+}
+
+.buttons{
+    padding: 0.2em;
+    margin-bottom: 2em;
+    margin-right:9.5em;
+    font-family: ubuntu,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+    font-weight: 100;
+    font-size:medium;
+}
+
+#regNumberInput{
+   margin-left:5em;
+   margin-bottom: 2em;
+    font-family: ubuntu,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+    font-weight: 200;
+    font-size: large;
+}
+
 #RegNumberLabel{
    
    
     border: black solid 1px;
     border-radius: 2em;
-    padding: 4em;
+    padding: 1.5em;
     margin: auto;
     font-family: ubuntu,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
     font-weight: 500;
