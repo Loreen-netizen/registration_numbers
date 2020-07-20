@@ -21,6 +21,12 @@
     font-size:medium;
 }
 
+#addButton{
+    margin-left:29.5em;
+    padding:10px;
+    margin-top:1em;
+}
+
 .townsWrapper{
     display: flex;
     flex-direction:column;
