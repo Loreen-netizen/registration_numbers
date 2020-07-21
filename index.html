@@ -13,13 +13,22 @@
      <input type="text" placeholder="Enter Registration Number" id="regNumberInput">
      
      <div class = "townsWrapper">
-        <div class = "dropDownLabel">
-            Please Select Town
-                <ul class = "townsList"> <li class = "towns">Cape Town</li>
-                      <li class = "towns">Paarl</li>
-                     <li class = "towns">George</li> 
-                     <li class = "towns">Stellenbosch</li>  
-               </ul>
+        <div class = "dropDownLabel" id="dropDown">
+           
+                <select class = "townsList" id = "townList">
+                    <option  value="">Please Select Town</option>
+                    <option id = "capetown" value="Cape Town">Cape Town</option> 
+                    <option id = "paarl" value="Paarl">Paarl</option> 
+                    <option  id = "george" value="George">George</option> 
+                    <option id = "stellenbosch" value="Stellenbosch">Stellenbosch</option> 
+                </select>
+
+                <!-- <ul id = "townUl" class = "townsList">
+                    <li id = "CPT" class = "towns">Cape Town</li> 
+                     <li id = "PRL" class = "towns">Paarl</li>
+                    <li id = "GRG" class = "towns">George</li> 
+                     <li id = "STBSCH" class = "towns">Stellenbosch</li>
+               </ul> -->
         </div>
         <button class = "buttons" id="addButton">Add</button>
     </div>
