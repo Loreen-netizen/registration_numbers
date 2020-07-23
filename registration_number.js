@@ -44,7 +44,7 @@ var addButtonClicked = function () {
     };
   }
 
-var townFunction = function(){
+  theTown.onchange = function(){
     
     var filteredTowns = [];
 
@@ -114,5 +114,4 @@ window.onload = function () {
 };
 
 addButton.addEventListener("click", addButtonClicked);
-// filterButton.addEventListener("click", townFunction);
 clearButton.addEventListener("click",clearLocalStorage);
