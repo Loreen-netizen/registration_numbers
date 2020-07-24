@@ -20,4 +20,12 @@ describe ("registrationNumberFactoryFunction",function(){
              assert.equal("Please Select Town",registrationNumberFactoryFunction2.townSelected(""));
             });
 
+            it("should save all reg numbers in an array", function(){
+                var registrationNumberFactoryFunction3 = registrationNumberFactoryFunction()
+                 assert.equal("Cape Town",registrationNumberFactoryFunction3.townSelected("CA"));
+                 assert.equal("Paarl",registrationNumberFactoryFunction3.townSelected("CJ"));
+                 assert.equal("Stellenbosch",registrationNumberFactoryFunction3.townSelected("CL"));
+                 assert.deepEqual(["CA","CJ","CL"],registrationNumberFactoryFunction3.pushRegNumbers());
+                });
+    
 });
